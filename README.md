@@ -4,10 +4,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://younes-dotcom.github.io/3-column-preview-card-component/)
 
-## My process
 
 ### Built with
 
@@ -16,7 +14,5 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - Mobile-first workflow
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/Younes-dotcom)
 
