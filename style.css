@@ -1,0 +1,104 @@
+/* Colors */
+/* Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%) */
+
+/* Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5rem;
+}
+
+.cards {
+  border-radius: 9px;
+  overflow: hidden;
+  margin: 4.8rem auto;
+  width: 26rem;
+}
+
+.card:first-child {
+  background-color: hsl(31, 77%, 52%);
+}
+.card:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+.card:last-child {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card {
+  padding: 3.2rem 4rem;
+  width: 100%;
+}
+
+.card--img img {
+  width: 6rem;
+}
+
+.card--title {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 2.4rem 0;
+}
+
+.card--description {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 3.2rem;
+  line-height: 1.7;
+  font-size: 1.2rem;
+  word-spacing: 2px;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1.2rem 2.4rem;
+  font-size: 1.4rem;
+  display: inline-block;
+  border-radius: 200px;
+  border: 2px solid hsl(0, 0%, 95%);
+}
+.btn:hover,
+.btn:active {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+.btn__orange {
+  color: hsl(31, 77%, 52%);
+}
+.btn__cyan {
+  color: hsl(184, 100%, 22%);
+}
+.btn__dark-cyan {
+  color: hsl(179, 100%, 13%);
+}
+
+@media (min-width: 1024px) {
+  .cards {
+    display: flex;
+    width: 78rem;
+  }
+
+  .card--description {
+    margin-bottom: 6.4rem;
+    line-height: 1.7;
+  }
+}
